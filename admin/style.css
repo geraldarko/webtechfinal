@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h2{
+	background-color: lightblue;
+	color: white;
+	text-align: center;
+	margin-bottom: 8px;
+}
+body{
+	color: #4f546c;
+	font-size: 0.9rem;
+	background-color: #f9fbff;
+}
+	form{
+	text-align: center;
+}
+span{
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 0.7rem;
+	font-weight: 900;
+}
+input{
+	border-radius: 2px;
+	margin-bottom: 5px;
+}
+#save{
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 0.6rem;
+	font-weight: 700;
+}

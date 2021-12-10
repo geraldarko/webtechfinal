@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #4f546c;
+	font-size: 0.9rem;
+	background-color: #f9fbff;
+}
+table{
+	font-family: sans-serif;
+	width: 100vw;
+	border-collapse: collapse;
+	box-shadow: 0 5px 10px #e1e5ee;
+	background-color: #fff;
+	text-align: left;
+	overflow: hidden;
+}
+thead{
+	box-shadow: 0 5px 10px #e1e5ee;
+}
+th{
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 0.7rem;
+	font-weight: 900;
+}
+td{
+	padding: 1rem 2rem;
+}
+a{
+	text-decoration: none;
+	color: #2962ff;
+}
+h2{
+	background-color: lightblue;
+	color: white;
+	text-align: center;
+	width: 100vw;
+}
+span{
+	padding: 5px;
+	font-size: 18px;
+}
+#delete{
+	border-radius: o.2rem;
+	background-color: #ffcdd2;
+	color: #c62828;
+	padding: 0.2rem 1rem;
+	text-align: center;
+}
+#delete:hover{
+	background-color: red;
+	color: #2962ff;
+}
+#edit{
+	border-radius: o.2rem;
+	background-color: #fff0c2;
+	color: #a68b00;
+	padding: 0.2rem 1rem;
+	text-align: center;
+}
+#edit:hover{
+	background-color: #edc95c;
+	color: #2962ff;
+}
+tr:nth-child(even){
+	background-color: #f4f6fb;
+}
