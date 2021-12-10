@@ -22,7 +22,7 @@
             $result=login_admin($credential, $loginpwd);
             if($result){
                 // $_SESSION['name'] = $row['name'];
-                $_SESSION['admin'] = $row['id'];
+                $_SESSION['admin'] = $result['username'];
                 header("Location: show.php");
             }else{
                 echo "<script>alert('Invalid credentials.')</script>";
