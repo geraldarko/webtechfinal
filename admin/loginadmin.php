@@ -14,6 +14,7 @@
 </head>
 <body>
     <?php 
+        session_start();
         require_once("../controllers/users_controller.php");
         if (isset($_POST['loginbtn'])) {
             $credential = $_POST['credential'];
