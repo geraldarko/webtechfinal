@@ -28,9 +28,9 @@ if (isset($_GET['id'])) {
 		$crime = $_POST['crime'];
 		$doc = $_POST['doc'];
 
-		$sql2 = "";
+		$result = edit_criminal($id, $sname, $fname, $oname, $dob, $nationalid, $crime, $doc);
 
-		if (mysqli_query($conn, $sql2)) {
+		if ($result) {
 			header("Location: show.php?RecordUpdated");
 		}
 	}
